@@ -4,7 +4,7 @@ A small web app that fetches a random piece of advice from the Advice Slip API a
 
 ## Live Demo
 
-[View the live site](https://your-live-demo-link-here)
+[View the live site](https://advice-generator-app-zeta-gray.vercel.app/)
 
 ## Overview
 
