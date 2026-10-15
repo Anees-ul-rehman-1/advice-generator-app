@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO PRIMARY TAGS -->
+  <title>Advice generator app | Frontend Mentor</title>
+  <meta name="title" content="Advice generator app | Frontend Mentor" />
+  <meta name="description" content="" />
+  <meta name="author" content="Anees Ul Rehman" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="" />
+
+  <!-- FACEBOOK / LINKEDIN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="Advice generator app | Frontend Mentor" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Advice generator app" />
+
+  <!-- TWITTER / X CARDS -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Advice generator app | Frontend Mentor" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/image.png" href="/src/assets/images/favicon-32x32.png" />
+
+  <!-- THEME COLOR -->
+  <meta name="theme-color" content="" />
+
+  <!-- TAILWIND CSS -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body class="bg-blue-950 text-white gap-10 font-manrope">
+  <!-- MIAN CONTENT-->
+  <main class="min-h-[90vh] flex flex-col justify-center items-center p-2">
+    <section class="bg-blue-900 max-w-135 rounded-xl p-6 space-y-8 relative transition">
+      <div class="space-y-4  text-center">
+        <h1 id="adviceId" class="uppercase text-green-300"></h1>
+        <p id="advice" aria-live="polite" aria-atomic="true" class="text-quote font-extrabold"></p>
+      </div>
+      <div class="grid place-items-center">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/src/assets/images/pattern-divider-desktop.svg">
+          <img class="" src="/src/assets/images/pattern-divider-mobile.svg" alt="Divider Pattern">
+        </picture>
+      </div>
+      <button id="adviceBtn" class="absolute -bottom-9 left-1/2 -translate-x-1/2 bg-green-300 p-6 rounded-full transition-transform hover:shadow-[0_0_30px_rgba(52,211,153,0.6)] active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:active:scale-none" aria-label="Get new advice">
+        <img src="src/assets/images/icon-dice.svg" alt="">
+      </button>
+    </section>
+  </main>
+
+  <!-- FOOTER CONTENT-->
+  <footer class="text-center p-4">
+    Challenge by <a class="text-green-300" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a class="text-green-300" href="https://github.com/Anees-ul-rehman-1">Anees Ul Rehman</a>.
+  </footer>
+
+  <!-- SCRIPT TAGS -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
